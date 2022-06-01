@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <!-- ICS2O-UnitX-YY-HTML-... -->
 <html lang="en-ca">
-  head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="My first Slider" />
+    <meta name="description" content="Query strings, with JS" />
     <meta name="keywords" content="mths, ics2o" />
     <meta name="author" content="Zaida Hammel" />
     <meta name="theme-color" content="#FFFFFF" />
-    <title>My first Slider</title>
+    <title>Query strings, with JS</title>
     <link rel="canonical" href="https://zaida-hammel.github.io/ICS2O-Unit5-01-HTML/" />
     <link rel="manifest" href="/ICS2O-Unit5-01-HTML/manifest.webmanifest" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -31,19 +31,17 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Webpage header text here</span>
+          <span class="mdl-layout-title">Query strings, with JS</span>
         </div>
       </header>
       <main class="mdl-layout__content">
-        <!-- Raised button with ripple -->
-        <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="myButtonClicked()"
-        >
-          Click here
-        </button>
-        <!-- basic text -->
-        <div id="hello-world"></div>
+        <img src="./images/sphere.png" alt="sphere" width="auto" height="auto">
+        <h4>Formula:</h4>
+        <h5>V = 3/4πr³</h5>
+          The dimensions are:
+          <div id="dimensions"></div>
+          <div id="volume"></div>
+        </div>
       </main>
     </div>
   </body>
