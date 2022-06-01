@@ -20,7 +20,7 @@ window.onload = function() {
 
   //process
   const volume = (4 / 3) * Math.PI * Math.pow(radius, 3)
-  const dimensions = "<ul>\n<li>a base = " + radius
+  const dimensions = "<ul>\n<li>radius = " + radius
 
   // output
   document.getElementById("dimensions").innerHTML = dimensions;
